@@ -13,7 +13,7 @@ Different algorithms are trained to deal with this unbalanced distribution with 
 
 Also, the optimization metric was chosen as the F1 score, which is the harmonic mean of precision and recall. The final evaluation is made based on the recall (true positive rate) metric, which shows the models' predictive power on positive class.
 
-The performance summary of different models on recall metric is summarized below:
+The performance summary of different models in test set (on recall metric) is summarized below:
 
 ![treshold0 8recall](https://github.com/rizatemizel/Gate-average-prediction-on-midus-data/assets/127015640/70f8419f-ec65-4f33-a285-556e3617dac1)
 
