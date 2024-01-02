@@ -3,9 +3,11 @@
 
 ## Update: Classification approach 2:
 
-Gait_average is discretized as below 0.8 and above 0.8:
+Gait_average is discretized as below 0.8 and above 0.8. Then feature selection is applied based on mutual information scores.
+
 * Class 1 indicates below-0.8
 * Class 0 indicated above-0.8
+
 
 This discretization led to an unbalanced distribution on target (79.1% of samples are above 0.8,  and 20.9% of samples are below 0.8)
 
