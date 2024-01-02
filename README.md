@@ -25,7 +25,7 @@ The performance summary of the best-performing model (XGBoost with class weight 
 
 Shapley values are also used for feature importance and model explainability:
 
-![shapley0 8test](https://github.com/rizatemizel/Gate-average-prediction-on-midus-data/assets/127015640/240f58bd-8ce3-4d1a-a860-cd2e399749ae)
+![shapindependence](https://github.com/rizatemizel/Gate-average-prediction-on-midus-data/assets/127015640/2994130c-f53b-489e-a5b7-72479eac8b99)
 
 Finally,  AUC comparison for different models are reported: 
 
