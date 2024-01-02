@@ -8,13 +8,16 @@ Gait_average is discretized as below 0.8 and above 0.8:
 * Class 0 indicated above-0.8
 
 This discretization led to an unbalanced distribution on target (79.1% of samples are above 0.8,  and 20.9% of samples are below 0.8)
-Different algorithms are trained to deal with this unbalanced distribution with class weight adjustment and the Synthetic Minority Over-sampling Technique (SMOTE). Also, the optimization metric was chosen as the F1 score, which is the harmonic mean of precision and recall. The final evaluation is made based on the recall (true positive rate) metric, which shows the models' predictive power on positive class.
+
+Different algorithms are trained to deal with this unbalanced distribution with class weight adjustment and the Synthetic Minority Over-sampling Technique (SMOTE). 
+
+Also, the optimization metric was chosen as the F1 score, which is the harmonic mean of precision and recall. The final evaluation is made based on the recall (true positive rate) metric, which shows the models' predictive power on positive class.
 
 The performance summary of different models on recall metric is summarized below:
 
 ![treshold0 8recall](https://github.com/rizatemizel/Gate-average-prediction-on-midus-data/assets/127015640/70f8419f-ec65-4f33-a285-556e3617dac1)
 
-The performance summary of the best-performing model (XGBoost with class weight adjustment) and feature importances are reported as follows:
+The performance summary of the best-performing model (XGBoost with class weight adjustment) including feature importances are reported as below. Note that this is not a perfect model. However, it has an acceptable predictive power on class 1 (%73 recall).  
 
 ![treshold0 8_summary](https://github.com/rizatemizel/Gate-average-prediction-on-midus-data/assets/127015640/355ac8aa-70af-4adc-a458-19301787bd5d)
 
